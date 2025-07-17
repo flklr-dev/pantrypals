@@ -77,7 +77,7 @@ const BottomTabNavigator: React.FC = () => {
               onPress={() => navigation.navigate("AddRecipe")}
               style={styles.addIconContainer}
             >
-              <Icon name="plus" size={24} color="#5b4637" />
+              <Icon name="plus" size={24} color="#f79c57" />
             </TouchableOpacity>
           ),
         }}
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   tabBar: {
     height: 70,
     width: "100%",
-    backgroundColor: "#5b4637",
+    backgroundColor: "#f79c57",
     paddingHorizontal: 10,
     position: "absolute",
     alignSelf: "center",
@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   addIconContainer: {
     width: 50,
     height: 50,
-    backgroundColor: "#e0d4c2",
+    backgroundColor: "#fff",
     borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",

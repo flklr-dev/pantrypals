@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 const authRoutes = require("./routes/auth");
 app.use("/api/auth", authRoutes);
 
-const recipeRoutes = require("./routes/Recipe");
+const recipeRoutes = require("./routes/recipe");
 app.use("/api/recipes", recipeRoutes);
 
 const PORT = process.env.PORT || 5000;
