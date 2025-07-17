@@ -82,11 +82,6 @@ PantryPals was created to:
 
 ---
 
-## 🖼️ Screenshots
-
-> _Add screenshots here to showcase the app’s beautiful UI and features!_
-
----
 
 ## 💡 Unique Touches
 
